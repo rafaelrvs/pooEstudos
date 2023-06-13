@@ -28,13 +28,11 @@ public class AulaPooJava {
            c2.modelo = "bic cristal";
            c2.cor = "Vermelha";
            c2.ponta = 1.0f;
-           c2.tampar();
+           c2.destampar();
            
-           
-           c1.status();
-           c2.status();
+ 
+        //   c1.rabiscar();
            c1.rabiscar();
-           c2.rabiscar();
            
        
        

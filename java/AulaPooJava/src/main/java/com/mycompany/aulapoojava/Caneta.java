@@ -20,18 +20,26 @@ public class Caneta {
         //this = nome do objeto que chamou, referencia ao proprio objeto que chamou
         
    
-        System.out.println("uma caneta: " + this.cor);
         System.out.println("Esta tampada? : " + this.tampada);
         System.out.println("Qual e o modelo ? : " + this.modelo);
         System.out.println("Ela qual é a ponta ? : " + this.ponta);
         System.out.println("Ela tem carga ? : " + this.carga);
+
     }
+    
+    void escolha(){
+            System.out.println("Você está escrevendo com a caneta "+ this.cor);
+            this.status();
+    }
+    
+    
     void rabiscar(){
-        if (tampada == true) {
-           System.out.println("A caneta NÃO pode ficar tampada se quiser rabiscar");
+        if (tampada == true ) {
+           System.out.println("A caneta " +this.cor +" NÃO pode ficar tampada se quiser rabiscar");
         }
         else{
            System.out.println("Estou rabiscando");
+           escolha();
             
         }
         
