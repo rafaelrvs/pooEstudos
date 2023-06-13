@@ -17,7 +17,9 @@ public class Caneta {
     boolean tampada;
     
     void status(){
-        //this = autoreferencia, quem chamou status = this
+        //this = nome do objeto que chamou, referencia ao proprio objeto que chamou
+        
+   
         System.out.println("uma caneta: " + this.cor);
         System.out.println("Esta tampada? : " + this.tampada);
         System.out.println("Qual e o modelo ? : " + this.modelo);
@@ -25,13 +27,21 @@ public class Caneta {
         System.out.println("Ela tem carga ? : " + this.carga);
     }
     void rabiscar(){
+        if (tampada == true) {
+           System.out.println("A caneta NÃO pode ficar tampada se quiser rabiscar");
+        }
+        else{
+           System.out.println("Estou rabiscando");
+            
+        }
         
     }
     void tampar(){
+        this.tampada = true;
         
     }
     void destampar(){
-        
+        this.tampada = false;
     }
     
 }
