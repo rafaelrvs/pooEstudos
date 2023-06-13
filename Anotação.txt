@@ -48,4 +48,8 @@ criação de representação da classe
 
 MODIFICADORES DE VISIBILIDADE:
 Indica o nivel de acesso aos componentes  internos de uma classe
+
+publico: todos podem usar    +
+privado: só só dentro da classe pode ter aceso   -
+protegido: classe atual e todas a sub classes da mesma familia  #
 	
