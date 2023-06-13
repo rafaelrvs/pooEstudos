@@ -19,6 +19,10 @@ public class Caneta {
     void status(){
         //this = autoreferencia, quem chamou status = this
         System.out.println("uma caneta: " + this.cor);
+        System.out.println("Esta tampada? : " + this.tampada);
+        System.out.println("Qual e o modelo ? : " + this.modelo);
+        System.out.println("Ela qual é a ponta ? : " + this.ponta);
+        System.out.println("Ela tem carga ? : " + this.carga);
     }
     void rabiscar(){
         
