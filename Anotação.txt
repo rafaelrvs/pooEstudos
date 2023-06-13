@@ -39,6 +39,13 @@ Natural: Mais facil de entender.
 
 
 	
+LINGUAGEM DE MODELAGEM UNIFICADA -- UML
+Diagrama de Classe:
+criação de representação da classe 
+	Classe
+	atributo
+	metodo()
 
-
+MODIFICADORES DE VISIBILIDADE:
+Indica o nivel de acesso aos componentes  internos de uma classe
 	
