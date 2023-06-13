@@ -16,4 +16,29 @@ Extensível:
         Ele deve crescer para permanecer útil.
 Reutilizavel:
 	Podemos usar objetos de um sistema que criamos em outro sistema futuro
-Natural: Mais facil de entender. você se preocupa mais na funcionalidade  do que nos detalhes de implementação
+Natural: Mais facil de entender.
+ você se preocupa mais na funcionalidade  do que nos detalhes de implementação
+ ///
+ objetos:
+  Definição:
+	Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio
+	das suas caracteristicas comportamentos e estado atual.
+
+
+	*instancia de uma classe
+
+	//Classe:
+					Que coisas eu tenho: Atributos
+					Que coisas eu faço: Métodos
+					Como eu estou agora: Estado
+
+					*Uma classe  define os Atributos e Métodos comuns que serão compartilhados por um objeto
+	//instancia:
+					Pegar uma classe e gerar um novo objeto:
+ //abstração : Pegar os dados que realmente importa de uma classe
+
+
+	
+
+
+	
