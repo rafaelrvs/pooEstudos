@@ -9,43 +9,45 @@ package com.mycompany.aula04;
  * @author rafae
  */
 public class Caneta {
-      public String modelo;
-    public String cor;
+    
+    private String modelo;
     private float ponta;
-    protected int carga;
-    protected  boolean tampada;
+    private  String cor;
+    private  boolean tampada;
+    ///construtor, memso nome da classe 
+    public Caneta( String m, String c, float p){
+        this.modelo = m;
+        this.cor= c;
+        this.setPonta(p);
+        this.tampar();
+        
+                
+        
+    }
     
     public void status(){
-        //this = nome do objeto que chamou, referencia ao proprio objeto que chamou
-        
-   
-        System.out.println("Esta tampada? : " + this.tampada);
-        System.out.println("Qual e o modelo ? : " + this.modelo);
-        System.out.println("Ela qual é a ponta ? : " + this.ponta);
-        System.out.println("Ela tem carga ? : " + this.carga);
+        System.out.print("Sobre a caneta: ");
+        System.out.println("O modelo da caneta é: "+  this.modelo);
+        System.out.println("A ponta da caneta é: "+  this.ponta);
+        System.out.println("A cor é: "+  this.cor);
+        System.out.println("A ela esta tampada?: "+  this.tampada);
+    }
+    public String getModelo(){
+        return this.modelo;
+    } 
+   public void setModelo(String m){
+       this.modelo = m;
+   }
 
+    public float getPonta() {
+        return ponta;
     }
-    
-   public void escolha(){
-            System.out.println("Você está escrevendo com a caneta "+ this.cor);
-            this.status();
-    }
-    
-    
-    protected void rabiscar(){
-        if (tampada == true ) {
-           System.out.println("A caneta " +this.cor +" NÃO pode ficar tampada se quiser rabiscar");
-        }
-        else{
-           System.out.println("Estou rabiscando");
-           escolha();
-            
-        }
-        
+
+    public void setPonta(float p) {
+        this.ponta = p;
     }
     public void tampar(){
         this.tampada = true;
-        
     }
     public void destampar(){
         this.tampada = false;
