@@ -13,7 +13,7 @@ public class Caneta {
     public String cor;
     private float ponta;
     protected int carga;
-    protected  boolean tampada;
+    private  boolean tampada;
     
     public void status(){
         //this = nome do objeto que chamou, referencia ao proprio objeto que chamou
@@ -32,7 +32,7 @@ public class Caneta {
     }
     
     
-    private void rabiscar(){
+    protected void rabiscar(){
         if (tampada == true ) {
            System.out.println("A caneta " +this.cor +" NÃO pode ficar tampada se quiser rabiscar");
         }
@@ -43,11 +43,11 @@ public class Caneta {
         }
         
     }
-    protected void tampar(){
+    public void tampar(){
         this.tampada = true;
         
     }
-    protected void destampar(){
+    public void destampar(){
         this.tampada = false;
     }
     
