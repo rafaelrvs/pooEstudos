@@ -1,0 +1,19 @@
+// 13/06/2023
+
+Objetivo da POO: Aproximar o mundo  Digital do mundo real
+
+Vantagens:
+
+Confiável:
+ 	O isolamento entre as partes gera software seguro ao alterar uma parte, nenhuma outra é afetada.
+Oportuno:
+	Ao dividir tudo em partes , varias delas podem ser desenvolvidas em paralelo
+Manutenivel:
+	Atualizar um software é mais facil. 
+	Uma pequena modificação vai beneficiar todas as partes que usarem
+Extensível:
+	O software não é estático. 
+        Ele deve crescer para permanecer útil.
+Reutilizavel:
+	Podemos usar objetos de um sistema que criamos em outro sistema futuro
+Natural: Mais facil de entender. você se preocupa mais na funcionalidade  do que nos detalhes de implementação
