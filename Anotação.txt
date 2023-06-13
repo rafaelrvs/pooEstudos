@@ -52,4 +52,22 @@ Indica o nivel de acesso aos componentes  internos de uma classe
 publico: todos podem usar    +
 privado: só só dentro da classe pode ter aceso   -
 protegido: classe atual e todas a sub classes da mesma familia  #
+
+
+metodos acessores:
+ metodos que dão acesso = GETTERS
+ não da acesso direto ao atributo
+
+ metodos modificadores:
+ Modifica o atributo garantindo a segurança  Setters
+
+ Construtor
+ construct 
+
+ toda vez que cria um objeto comece com uma tarefa sem que sejá modificada
+ metodo construtor pode receber parametros 
+  
+
+
+
 	
